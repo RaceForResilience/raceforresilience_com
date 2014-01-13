@@ -444,8 +444,11 @@ ul.logolist {
 ul.logolist li {
 	float: left;
 	list-style-type: none;
+	/*
 	margin-right: 30px;
 	margin-bottom: 20px;
+	*/
+	margin: 10px;
 }
 
 ul.logolist li a {
