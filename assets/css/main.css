@@ -4,6 +4,22 @@ dl dd {
 	margin-bottom: 0;
 }
 
+.highlight {
+	
+	/*
+border-style: solid;
+border-width: 1px;
+border-color: #dddddd;
+*/
+margin-bottom: 1.25rem;
+padding: 1.25rem;
+background: #ffffff;
+	border-left: 3px solid #baeeff;
+	
+	
+}
+
+
 /* @end */
 
 
@@ -11,6 +27,7 @@ body {
 }
 
 #keyvisual {
+	
 	width: 100%;
 	height: 800px;
 	margin-bottom: 60px;
@@ -48,10 +65,6 @@ body {
 
 .captionInHeader {
     font-size: 60%;
-}
-
-.horizontalCenter {
-	text-align: center;
 }
 
 .R4Rsymbol {
@@ -235,16 +248,29 @@ body {
 
 }
 
-#submitBox {
+ul#submitBox {
 	text-align: center;	
 }
 
+ul#submitBox li {
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+ul#submitBox li {
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	margin: 0 10px 0 10px;
+}
 
 /* ボタン共通のスタイル */
 
 .btn {
-  padding: 11px 19px;
-  font-size: 17.5px;
+  padding: 10px 17px;
+  font-size: 14px;
   line-height: 20px;
    
   display: inline-block;
@@ -438,7 +464,7 @@ h4.logolist {
 }
 
 ul.logolist {
-	min-height: 200px;
+	min-height: 150px;
 }
 
 ul.logolist li {
@@ -489,6 +515,17 @@ ul.snslist li a:hover {
 ul.snslist li a:visited {
 
 }
+
+a.inline {
+	text-decoration: underline;
+}
+
+a.inline:focus,
+a.inline:active,
+a.inline:hover {
+	text-decoration: none;
+}
+
 
 .logoblock {
 	margin-bottom: 30px;
