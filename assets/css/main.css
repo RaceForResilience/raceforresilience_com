@@ -490,6 +490,49 @@ ul.logolist li a:hover {
 	filter: alpha(opacity=60); /* IE */
 }
 
+ul.peoplelist {
+	clear: both;
+	margin-bottom: 30px;
+}
+
+ul.peoplelist li {
+	margin: 10px;
+	font-size: 16px;
+	list-style-type: none;
+	line-height: 0.4;
+}
+
+ul.peoplelist li .desc {
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+ul.articlelist {
+	min-height: 150px;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+ul.articlelist li {
+	margin: 10px;
+	font-size: 14px;
+	list-style-type: none;
+	line-height: 1.4;
+	margin-bottom: 14px;
+}
+
+ul.articlelist li a:focus,
+ul.articlelist li a:active,
+ul.articlelist li a:hover {
+	text-decoration: underline;
+}
+
+ul.articlelist li .desc {
+	font-size: 12px;
+	line-height: 1.6;
+	background-color: #ddd;
+}
+
 ul.snslist {
 	text-align: center;
 	margin-top: 50px;
